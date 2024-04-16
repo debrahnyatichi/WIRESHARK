@@ -1,0 +1,20 @@
+                              NETWORK PACKET FORENSICS
+OSI(Open Systems Interconnection) is a conceptual model that defines and standardizes the process of communication between sender's and receiver's system.
+FLOW OF DATA FROM SENDER'S NETWORK:Application>Presentation>Session>Transport>Network>Datalink>Physical
+FLOW OF DATA FROM RECEIVER'S NETWORK:Physical>Datalink>Network>Transport>Session>Presentation>Application
+
+OSI Model and Their Functions
+ 7.Application layer-it provides network services to end-users,user interact directly with the software application 
+ EXAMPLES:FTP,HTTP,SSH,SMTP,DNS,DHCP
+ 6.Presentation layer- responsible for encryption,decryption and compression of data to support application layer
+ EXAMPLE:JPEG,SSL,TSL
+ 5.Session Layer- manage communication session between both connection multiple back-and-forth transmissions
+ EXAMPLE:NetBIOS,RPC
+ 4.Transport Layer-responsible for establishing host to host connection between two nodes and transfer error free data
+ EXAMPLE:TCP and UDP protocols 
+ 3.Network Layer- divides data frame into packets and adding routing concept through logical address
+ EXAMPLE:ICMP,IGMP,IPv4,IPv6,RIP
+ 2.Data link layer-broadcast of data frames between two nodes connected by a physical layer
+ EXAMPLE:MAC Address,ARP,PPP,ATM
+ 1.Physical layer-sending and receiving of raw bit streams in the form of 0&1 over a physical medium
+ EXAMPLES:Cables and Connectorss,UBS,Wireless
